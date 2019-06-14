@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 3000px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* nav bar */
+
+nav * {
+    vertical-align: middle;
+}
+
+#logo {
+    width: 92px;
+    margin: 28px 30px;
+}
+
+nav form {
+    display: inline;
+    border-radius: 30px;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 12px 18px;
+}
+
+nav form input {
+    width: 570px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+nav form button {
+    border: none;
+    background-color: transparent;
+}
+
+nav #user-links {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin: 30px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+nav #user-links li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+nav #user-links a {
+    text-decoration: none;
+    color: black;
+}
+
+nav #user-links img {
+    border-radius: 100%;
+}
+
+nav #search-settings {
+    margin-top: 10px;
+    padding-left: 170px;
+}
+
+nav #search-cats,
+nav #search-cats li,
+nav #search-settings-2,
+nav #search-settings-2 li {
+    display: inline-block;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+nav #search-cats li a,
+nav #search-settings-2 li a {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    display: inline-block;
+    height: 30px;
+}
+
+nav #search-cats li,
+nav #search-settings-2 li {
+    padding: 0 10px;
+}
+
+nav #search-settings-2 {
+    margin-left: 132px;
+}
+
+nav #search-cats li:first-child {
+    border-bottom: 3px solid #1a73e8;
+}
+
+nav {
+    border-bottom: 1px solid #ebebeb;
+}
